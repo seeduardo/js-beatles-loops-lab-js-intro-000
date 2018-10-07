@@ -18,8 +18,7 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(number) {
   var howMuch = [];
   var index = 0;
-  do {howMuch.push(`I love the Beatles!`)}
-  while (number.length < 15)
-  index++
-return howMuch
+  do {howMuch.push(`I love the Beatles!`); index++}
+  while (number.length < 15);
+  return howMuch
 }
